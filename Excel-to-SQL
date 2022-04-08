@@ -1,0 +1,14 @@
+save file excel.txt (text unicode)
+Use notpad -> Encodage ->UTF8
+save
+re open
+copy to word
+replace blanc with ;
+ctrl-A, ctrl-C
+Ctrl-V to notpad
+save file.txt
+Open SQL
+import file.txt type UTF8
+format ; for collume
+CSV using load data
+Go
